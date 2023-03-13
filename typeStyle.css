@@ -1,0 +1,218 @@
+:root {
+  --color-rock: #b69e31;
+  --color-ghost: #70559b;
+  --color-steel: #b7b9d0;
+  --color-water: #6493eb;
+  --color-grass: #74cb48;
+  --color-psychic: #fb5584;
+  --color-ice: #9ad6df;
+  --color-dark: #75574c;
+  --color-fairy: #e69eac;
+  --color-normal: #aaa67f;
+  --color-fighting: #c12239;
+  --color-flying: #a981ec;
+  --color-poison: #a43e9e;
+  --color-ground: #dec16b;
+  --color-bug: #a7b723;
+  --color-fire: #f57d31;
+  --color-electric: #f9cf30;
+  --color-dragon: #7037ff;
+}
+
+.card.grass .name,
+.details.grass,
+.details.grass .bar,
+.details.grass .backgroundBar,
+.types .grass {
+  background-color: var(--color-grass);
+}
+.card.grass .id,
+.details.grass .title,
+.details.grass .statsNames > li {
+  color: var(--color-grass);
+}
+.card.grass,
+.details.grass .infos {
+  border-color: var(--color-grass);
+}
+.card.fire .name,
+.details.fire,
+.details.fire .bar,
+.details.fire .backgroundBar,
+.types .fire {
+  background-color: var(--color-fire);
+}
+.card.fire .id,
+.details.fire .title,
+.details.fire .statsNames > li {
+  color: var(--color-fire);
+}
+.card.fire,
+.details.fire .infos {
+  border-color: var(--color-fire);
+}
+.card.water .name,
+.details.water,
+.details.water .bar,
+.details.water .backgroundBar,
+.types .water {
+  background-color: var(--color-water);
+}
+.card.water .id,
+.details.water .title,
+.details.water .statsNames > li {
+  color: var(--color-water);
+}
+.card.water,
+.details.water .infos {
+  border-color: var(--color-water);
+}
+.card.bug .name,
+.details.bug,
+.details.bug .bar,
+.details.bug .backgroundBar,
+.types .bug {
+  background-color: var(--color-bug);
+}
+.card.bug .id,
+.details.bug .title,
+.details.bug .statsNames > li {
+  color: var(--color-bug);
+}
+.card.bug,
+.details.bug .infos {
+  border-color: var(--color-bug);
+}
+.card.electric .name,
+.details.electric,
+.details.electric .bar,
+.details.electric .backgroundBar,
+.types .electric {
+  background-color: var(--color-electric);
+}
+.card.electric .id,
+.details.electric .title,
+.details.electric .statsNames > li {
+  color: var(--color-electric);
+}
+.card.electric,
+.details.electric .infos {
+  border-color: var(--color-electric);
+}
+
+.card.ghost .name,
+.details.ghost,
+.details.ghost .bar,
+.details.ghost .backgroundBar,
+.types .ghost {
+  background-color: var(--color-ghost);
+}
+.card.ghost .id,
+.details.ghost .title,
+.details.ghost .statsNames > li {
+  color: var(--color-ghost);
+}
+.card.ghost,
+.details.ghost .infos {
+  border-color: var(--color-ghost);
+}
+
+.card.normal .name,
+.details.normal,
+.details.normal .bar,
+.details.normal .backgroundBar,
+.types .normal {
+  background-color: var(--color-normal);
+}
+.card.normal .id,
+.details.normal .title,
+.details.normal .statsNames > li {
+  color: var(--color-normal);
+}
+.card.normal,
+.details.normal .infos {
+  border-color: var(--color-normal);
+}
+.card.psychic .name,
+.details.psychic,
+.details.psychic .bar,
+.details.psychic .backgroundBar,
+.types .psychic {
+  background-color: var(--color-psychic);
+}
+.card.psychic .id,
+.details.psychic .title,
+.details.psychic .statsNames > li {
+  color: var(--color-psychic);
+}
+.card.psychic,
+.details.psychic .infos {
+  border-color: var(--color-psychic);
+}
+
+.card.poison .name,
+.details.poison,
+.details.poison .bar,
+.details.poison .backgroundBar,
+.types .poison {
+  background-color: var(--color-poison);
+}
+.card.poison .id,
+.details.poison .title,
+.details.poison .statsNames > li {
+  color: var(--color-poison);
+}
+.card.poison,
+.details.poison .infos {
+  border-color: var(--color-poison);
+}
+
+.card.flying .name,
+.details.flying,
+.details.flying .bar,
+.details.flying .backgroundBar,
+.types .flying {
+  background-color: var(--color-flying);
+}
+.card.flying .id,
+.details.flying .title,
+.details.flying .statsNames > li {
+  color: var(--color-flying);
+}
+.card.flying,
+.details.flying .infos {
+  border-color: var(--color-flying);
+}
+.card.rock .name,
+.details.rock,
+.details.rock .bar,
+.details.rock .backgroundBar,
+.types .rock {
+  background-color: var(--color-rock);
+}
+.card.rock .id,
+.details.rock .title,
+.details.rock .statsNames > li {
+  color: var(--color-rock);
+}
+.card.rock,
+.details.rock .infos {
+  border-color: var(--color-rock);
+}
+
+.card.steel .name,
+.details.steel,
+.details.steel .bar,
+.details.steel .backgroundBar,
+.types .steel {
+  background-color: var(--color-steel);
+}
+.card.steel .id,
+.details.steel .title,
+.details.steel .statsNames > li {
+  color: var(--color-steel);
+}
+.card.steel,
+.details.steel .infos {
+  border-color: var(--color-steel);
+}

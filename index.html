@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="typeStyle.css" />
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <main>
+      <div class="list-Container show">
+        <div class="header-content">
+          <div class="header">
+            <img
+              id="pokeball"
+              src="/asserts/imgs/pokeball.png"
+              alt="Pokeball image"
+            />
+            <h1 class="title">Pokédex</h1>
+            <div class="filterImg numbers"></div>
+          </div>
+          <div class="search">
+            <img src="/asserts/imgs/search.png" alt="search icon" />
+            <input
+              type="search"
+              name="search"
+              id="isearch"
+              placeholder="Procurar"
+              list="namesList"
+            />
+            <datalist id="namesList">
+
+            </datalist>
+          </div>
+        
+        </div>
+        <ul class="cards"></ul>
+      </div>
+      <div class="details grass ">
+        <div class="pokemon">
+          <i class="material-symbols-rounded returnButton">
+            arrow_back
+            </i>
+          <h1 class="name">Bulbasaur</h1>
+          <p class="id">#001</p>
+        </div>
+        <img
+          class="pokemonImg"
+          src="/asserts/imgs/bulbassur.png"
+          alt="bulbasur photo"
+        />
+        <img
+          class="pokeballImg"
+          src="/asserts//imgs/pokeball.png"
+          alt="Pokeball image"
+        />
+        <div class="infos">
+          <ul class="types">
+            <li class="grass">Grass</li>
+            <li class="poison">Poison</li>
+          </ul>
+          <div class="about">
+            <h2 class="title">About</h2>  
+            <div class="data">
+              <div class="weightContainer">
+                <span>
+                  <img src="asserts/imgs/weight.png" alt="" />
+                  <h3><span class="weight">6,9</span> kg</h4></span
+                >
+                <h4>weight</h4>
+              </div>
+              <hr class="verticalLine" width="1" size="50"  />
+              <div class="heightContainer">
+                <span>
+                  <img src="asserts/imgs/rule.png" alt="" />
+                  <h3><span class="height">0,7</span> m</h3></span
+                >
+                <h4>Height</h4>
+              </div>
+              <hr class="verticalLine" width="1" size="50"  />
+              <div >
+                <ul class="moves">
+                  <li class="ability1">Chlorophyll</li>
+                  <li class="ability2">Overgrow</li>
+                </ul>
+                <h4>moves</h4>
+              </div>
+            </div>
+            <p class="description">
+              There is a plant seed on its back right from the day this Pokémon
+              is born. The seed slowly grows larger.
+            </p>
+          </div>
+          <div class="baseStats">
+            <h2 class="title">Base Stats</h2>
+            <div class="stats">
+              <ul class="statsNames">
+                <li>HP</li>
+                <li>ATK</li>
+                <li>DEF</li>
+                <li>SATK</li>
+                <li>SDEF</li>
+                <li>SPD</li>
+              </ul>
+              <hr class="verticalLine" width="1" size="100"  />
+              <ul class="statsValues">
+                <li class="hp" >045</li>
+                <li class="atk">049</li>
+                <li class="def">049</li>
+                <li class="satk">065</li>
+                <li class="sdef">065</li>
+                <li class="spd">045</li>
+              </ul>
+              <div class="statsBars">
+                  <div class="hp">
+                    <hr class="backgroundBar">
+                    <hr class="bar" style="width: 0px">
+                  </div>
+                  <div class="atk">
+                    <hr class="backgroundBar">
+                    <hr class="bar" style="width: 0px">
+                  </div>
+                  <div class="def">
+                    <hr class="backgroundBar">
+                    <hr class="bar" style="width: 0px">
+                  </div>
+                  <div class="satk">
+                      <hr class="backgroundBar">
+                      <hr class="bar" style="width: 0px">
+                  </div>
+                  <div class="sdef">
+                    <hr class="backgroundBar">
+                    <hr class="bar" style="width: 0px">
+                  </div>
+                  <div class="spd">
+                    <hr class="backgroundBar">
+                    <hr class="bar" style="width: 0px">
+                  </div>
+              </div>
+            </div>            
+    
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
