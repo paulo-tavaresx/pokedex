@@ -175,7 +175,7 @@
     },
     {
       pokemonName: 'Aron',
-      img: 'https://github.com/pofft/pokedex/blob/main/asserts/imgs/aron.png',
+      img: '/asserts/imgs/aron.png',
       id: 304,
       types: ['steel', 'rock'],
       data: {
