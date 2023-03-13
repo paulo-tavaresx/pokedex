@@ -12,7 +12,7 @@
   const cardsAvailable = [
     {
       pokemonName: 'Bulbasaur',
-      img: '../asserts/imgs/bulbassur.png',
+      img: 'blob/main/asserts/imgs/aron.png',
       id: 1,
       types: ['grass', 'poison'],
       data: {
