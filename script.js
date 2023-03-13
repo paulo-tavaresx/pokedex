@@ -12,7 +12,7 @@
   const cardsAvailable = [
     {
       pokemonName: 'Bulbasaur',
-      img: '/asserts/imgs/aron.png',
+      img: '../pokedex/asserts/imgs/aron.png',
       id: 1,
       types: ['grass', 'poison'],
       data: {
@@ -33,7 +33,7 @@
     },
     {
       pokemonName: 'Charmander',
-      img: '/asserts/imgs/charmander.png',
+      img: '../pokedex/asserts/imgs/charmander.png',
       id: 4,
       types: ['fire'],
       data: {
@@ -53,7 +53,7 @@
     },
     {
       pokemonName: 'Squirtle',
-      img: '/asserts/imgs/squirtle.png',
+      img: '../pokedex/asserts/imgs/squirtle.png',
       id: 7,
       types: ['water'],
       data: {
@@ -73,7 +73,7 @@
     },
     {
       pokemonName: 'Butterfree',
-      img: '/asserts/imgs/butterfree.png',
+      img: '../pokedex/asserts/imgs/butterfree.png',
       id: 12,
       types: ['bug', 'flying'],
       data: {
@@ -93,7 +93,7 @@
     },
     {
       pokemonName: 'Pikachu',
-      img: '/asserts/imgs/pikachu.png',
+      img: '../pokedex/asserts/imgs/pikachu.png',
       id: 25,
       types: ['electric'],
       data: {
@@ -113,7 +113,7 @@
     },
     {
       pokemonName: 'Gastly',
-      img: '/asserts/imgs/gastly.png',
+      img: '../pokedex/asserts/imgs/gastly.png',
       id: 92,
       types: ['ghost'],
       data: {
@@ -134,7 +134,7 @@
     },
     {
       pokemonName: 'Ditto',
-      img: '/asserts/imgs/ditto.png',
+      img: '../pokedex/asserts/imgs/ditto.png',
       id: 132,
       types: ['normal', 'flying'],
       data: {
@@ -155,7 +155,7 @@
 
     {
       pokemonName: 'Mew',
-      img: '/asserts/imgs/mew.png',
+      img: '../pokedex/asserts/imgs/mew.png',
       id: 152,
       types: ['psychic'],
       data: {

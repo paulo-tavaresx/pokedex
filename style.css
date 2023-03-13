@@ -66,10 +66,10 @@ main {
   background-repeat: no-repeat;
 }
 .header .filterImg.numbers {
-  background-image: url('/asserts/imgs/number.png');
+  background-image: url('../pokedex/asserts/imgs/number.png');
 }
 .header .filterImg.letters {
-  background-image: url('/asserts/imgs/letters.png');
+  background-image: url('../pokedex/asserts/imgs/letters.png');
 }
 .header-content .search {
   width: 328px;
